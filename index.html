@@ -10,11 +10,276 @@
     <!-- favicon -->
     <link rel="shortcut icon" href="img/logo.png" />
 
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
     <!-- css -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1 class="text-3xl font-bold">Hello world!</h1>
+    <!-- quick menu -->
+    <section class="quick-menu bg-[#f3f7fa]">
+      <div class="container">
+        <div class="flex justify-between items-center">
+          <ul class="flex justify-start items-center gap-5">
+            <li class="font-bold bg-gray-200 py-4 px-5">Quick Menu:</li>
+            <li class="py-4 px-5">
+              <a href="" class="">About Us</a>
+            </li>
+            <li class="py-4 px-5">
+              <a href="" class="">Constitution</a>
+            </li>
+            <li class="py-4 px-5">
+              <a href="" class="">Bangla Radio Canberra</a>
+            </li>
+            <li class="py-4 px-5">
+              <a href="" class="">About Bangladesh</a>
+            </li>
+            <li class="py-4 px-5">
+              <a href="" class="">About Australia</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- quick menu -->
+
+    <!-- header -->
+    <header class="header bg-[#003E80] py-5">
+      <div class="container">
+        <div class="flex justify-between items-center">
+          <div class="flex justify-start items-center gap-3">
+            <a href="./">
+              <img src="img/logo.png" alt="logo" class="logo w-[75px]" />
+            </a>
+            <div class="">
+              <h2 class="text-white font-bold text-2xl">BAAC</h2>
+              <p class="text-lg text-white">
+                Bangladesh Australia Association Canberra
+              </p>
+            </div>
+          </div>
+
+          <div class="flex justify-end items-center gap-8">
+            <a href="" class="bg-transparent text-white font-semibold p-0 inline-flex items-center">
+                Home
+            </a>
+            <div class="dropdown inline-block relative">
+              <button
+                class="bg-transparent text-white font-semibold p-0 inline-flex items-center"
+              >
+                <span class="mr-1">About Us</span>
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <ul
+                class="dropdown-menu absolute hidden text-gray-700 pt-1 min-w-[400px] right-0"
+              >
+                <li class="">
+                  <a
+                    class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    href="#"
+                  >
+                    About The Association</a
+                  >
+                </li>
+                <li class="">
+                  <a
+                    class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    href="#"
+                  >
+                    Constitution
+                  </a>
+                </li>
+                <li class="">
+                  <a
+                    class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    href="#"
+                  >
+                    Bangla Radio Canberra
+                  </a>
+                </li>
+                <li class="">
+                  <a
+                    class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    href="#"
+                  >
+                    Bangla Language And Cultural School
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="dropdown inline-block relative">
+              <button
+                class="bg-transparent text-white font-semibold p-0 inline-flex items-center"
+              >
+                <span class="mr-1">Media</span>
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <ul
+                class="dropdown-menu absolute hidden text-gray-700 pt-1 min-w-[200px] right-0"
+              >
+                <li class="">
+                  <a
+                    class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    href="#"
+                  >
+                    News</a
+                  >
+                </li>
+                <li class="">
+                  <a
+                    class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    href="#"
+                  >
+                    Events
+                  </a>
+                </li>
+                <li class="">
+                  <a
+                    class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    href="#"
+                  >
+                    Image Gallery
+                  </a>
+                </li>
+                <li class="">
+                  <a
+                    class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    href="#"
+                  >
+                    Video Gallery
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="dropdown inline-block relative">
+              <button
+                class="bg-transparent text-white font-semibold p-0 inline-flex items-center"
+              >
+                <span class="mr-1">Membership</span>
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <ul
+                class="dropdown-menu absolute hidden text-gray-700 pt-1 min-w-[250px] right-0"
+              >
+                <li class="">
+                  <a
+                    class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    href="#"
+                  >
+                    Become A Member</a
+                  >
+                </li>
+                <li class="">
+                  <a
+                    class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    href="#"
+                  >
+                    Membership Form
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="dropdown inline-block relative">
+              <button
+                class="bg-transparent text-white font-semibold p-0 inline-flex items-center"
+              >
+                <span class="mr-1">Executive Committee</span>
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <ul
+                class="dropdown-menu absolute hidden text-gray-700 pt-1 min-w-[250px] right-0"
+              >
+                <li class="">
+                  <a
+                    class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    href="#"
+                  >
+                   Present Committee</a
+                  >
+                </li>
+                <li class="">
+                  <a
+                    class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    href="#"
+                  >
+                    Old Committee
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="dropdown inline-block relative">
+              <button
+                class="bg-transparent text-white font-semibold p-0 inline-flex items-center"
+              >
+                <span class="mr-1">Useful Links</span>
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <ul
+                class="dropdown-menu absolute hidden text-gray-700 pt-1 min-w-[600px] right-0"
+              >
+                <li class="">
+                  <a
+                    class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    href="#"
+                  >
+                   High Commission For the Peoplea's Republic of Bangaldesh Canberra</a
+                  >
+                </li>
+                <li class="">
+                  <a
+                    class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    href="#"
+                  >
+                    Bangladeshi Community Organisations In Other Parts Of Australia
+                  </a>
+                </li>
+                <li class="">
+                  <a
+                    class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    href="#"
+                  >
+                    About Australia
+                  </a>
+                </li>
+                <li class="">
+                  <a
+                    class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    href="#"
+                  >
+                    About Bangladesh
+                  </a>
+                </li>
+                <li class="">
+                  <a
+                    class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                    href="#"
+                  >
+                    Australian Newspapers
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <a href="" class="bg-transparent text-white font-semibold p-0 inline-flex items-center">
+                Contact Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header -->
 
     <!-- tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
