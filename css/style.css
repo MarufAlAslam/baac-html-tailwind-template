@@ -2,11 +2,58 @@
   font-family: "Raleway", sans-serif;
 }
 .container {
-  max-width: 1240px;
+  max-width: 1440px;
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
 }
 .dropdown:hover .dropdown-menu {
   display: block;
+}
+
+.hero {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #003e80;
+  background-image: linear-gradient(#003e80, rgba(0, 0, 0, 0.5)),
+    url("../img/hero1.jpg");
+  background-position: center;
+  min-height: calc(100vh - 175px);
+  overflow: hidden;
+  transition: 0.5s;
+  animation: breathIn 10s ease-in-out infinite;
+}
+
+@keyframes breathIn {
+  0% {
+    background-size: 100%;
+  }
+  50% {
+    background-size: 120%;
+  }
+  100% {
+    background-size: 100%;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.glass-black{
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+a{
+    transition: 0.4s;
 }
