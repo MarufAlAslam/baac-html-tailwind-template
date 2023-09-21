@@ -24,30 +24,8 @@
   animation: breathIn 10s ease-in-out infinite;
   background-attachment: fixed;
 }
-
-
-/* contact page */
-.contact-hero iframe{
-  width: 100%;
-  height: 450px;
-  filter: grayscale(80%);
-}
-.contact-info li {
-  background: rgba(0,0,0,0.1);
-  padding: 10px;
-  color: rgba(0,0,0,0.7);
-  margin-bottom: 28px;
-  height: 115px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* flex-direction: column; */
-  gap: 15px;
-}
-
-.contact-info i{
-  font-size: 25px;
-  color: rgba(0,0,0,0.5);
+.dropdown-menu {
+  z-index: 100;
 }
 
 @keyframes breathIn {
@@ -75,25 +53,50 @@
   }
 }
 
-.glass-black{
-    background-color: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
+.glass-black {
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
 }
 
-a{
-    transition: 0.4s;
+a {
+  transition: 0.4s;
 }
 
-.message{
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url("../img/mayour.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+.message {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/mayour.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 img.sign {
-    filter: invert(1);
+  filter: invert(1);
 }
 p {
-    text-align: justify;
+  text-align: justify;
+}
+
+/* contact page */
+.contact-hero iframe {
+  width: 100%;
+  height: 450px;
+  filter: grayscale(80%);
+}
+.contact-info li {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 28px;
+  height: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-info i {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.5);
 }
