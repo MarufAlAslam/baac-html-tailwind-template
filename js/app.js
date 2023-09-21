@@ -23,8 +23,8 @@ $(".slider").slick({
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 2,
+        slidesToScroll: 2,
       },
     },
 
@@ -44,4 +44,9 @@ $(".slider").slick({
       },
     },
   ],
+});
+
+$(".menu-btn, .menu-overlay").click(function () {
+  $(".main-menu").toggleClass("active");
+  $(".menu-overlay").toggleClass("active");
 });

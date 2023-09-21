@@ -88,20 +88,25 @@
     <!-- header -->
     <header class="header bg-[#2A2D39] py-4">
       <div class="container">
-        <div class="flex justify-between items-center">
-          <div class="flex justify-start items-center gap-3">
+        <div class="floating-menu-btn lg:hidden block fixed z-[100] right-[20px] top-[20px]">
+          <button class="btn menu-btn bg-black w-[60px] h-[60px] rounded">
+            <i class="fa fa-bars fa-2x text-white"></i>
+          </button>
+        </div>
+        <div class="flex lg:flex-row flex-col justify-between items-center">
+          <div class="flex justify-start lg:flex-row flex-col items-center gap-3">
             <a href="./">
               <img src="img/logo.png" alt="logo" class="logo w-[60px]" />
             </a>
-            <div class="">
+            <div class="lg:text-left text-center">
               <h2 class="text-white font-bold text-2xl">BAAC</h2>
               <p class="text-lg text-white">
                 Bangladesh Australia Association Canberra
               </p>
             </div>
           </div>
-
-          <div class="flex justify-end items-center gap-8">
+          <div class="menu-overlay"></div>
+          <div class="flex main-menu justify-end items-center gap-8">
             <a
               href="./error"
               class="bg-transparent text-white font-semibold p-0 inline-flex items-center"
@@ -892,7 +897,7 @@
     <!-- news -->
     <section class="news py-10">
       <div class="container">
-        <div class="flex justify-between items-start gap-[20px]">
+        <div class="flex lg:flex-row flex-col justify-between items-start gap-[20px]">
           <div class="lg:w-1/2 w-full">
             <p>FORMAL PUBLIC STATEMENTS ABOUT OUR CITY</p>
             <h2 class="text-4xl font-bold">Announcements</h2>
@@ -946,7 +951,7 @@
               </div>
             </div>
 
-            <div class="mt-5">
+            <div class="mt-5 lg:block hidden">
               <img src="img/bg.jpg" class="w-full h-full object-cover" alt="" />
             </div>
           </div>
@@ -1091,11 +1096,11 @@
     <!-- message from mayor -->
     <section class="message py-[100px] bg-[#003E80]">
       <div class="container">
-        <div class="flex justify-between items-center gap-5">
-          <div class="w-[45%]">
+        <div class="flex lg:flex-row flex-col justify-between items-center gap-5">
+          <div class="lg:w-[45%] w-full">
             <img src="img/mayorbg.jpg" alt="" />
           </div>
-          <div class="w-[55%] p-10">
+          <div class="lg:w-[55%] w-full p-10">
             <h2 class="text-4xl font-bold text-white">
               A Message from the Mayor
             </h2>
@@ -1136,7 +1141,7 @@
     <!-- footer -->
     <footer class="bg-[#2A2D39] py-[50px]">
       <div class="container">
-        <div class="grid md:grid-cols-3 grid-cols-1 gap-5">
+        <div class="grid lg:grid-cols-3 grid-cols-1 gap-5">
           <div class="item">
             <a href="./error">
               <img src="img/logo.png" class="w-[100px] mb-5" alt="" />
