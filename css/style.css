@@ -25,6 +25,31 @@
   background-attachment: fixed;
 }
 
+
+/* contact page */
+.contact-hero iframe{
+  width: 100%;
+  height: 450px;
+  filter: grayscale(80%);
+}
+.contact-info li {
+  background: rgba(0,0,0,0.1);
+  padding: 10px;
+  color: rgba(0,0,0,0.7);
+  margin-bottom: 28px;
+  height: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  gap: 15px;
+}
+
+.contact-info i{
+  font-size: 25px;
+  color: rgba(0,0,0,0.5);
+}
+
 @keyframes breathIn {
   0% {
     background-size: 100%;
