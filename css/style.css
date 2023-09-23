@@ -196,4 +196,13 @@ html {
   .news h2.mb-4 {
     margin: 0 !important;
   }
+  .gap-10 {
+    gap: 0 !important;
+  }
+  .contact-info {
+    padding-bottom: 0 !important;
+  }
+  .contact-person{
+    padding-top: 0 !important;
+  }
 }
