@@ -33,7 +33,7 @@
     background-size: 100%;
   }
   50% {
-    background-size: 120%;
+    background-size: 110%;
   }
   100% {
     background-size: 100%;
@@ -67,7 +67,7 @@ a {
     url("../img/hero2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   background-attachment: fixed;
 }
 img.sign {
