@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- title -->
+    <title>BCA - Bangladesh Cultural Association</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../img/logo.png" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- lity cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.css"
+    />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- slick cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+
+    <!-- slick theme cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header bg-[#2A2D39] py-4">
+      <div class="container">
+        <div
+          class="floating-menu-btn lg:hidden block fixed z-[100] right-[20px] top-[20px]"
+        >
+          <button class="btn menu-btn bg-black w-[60px] h-[60px] rounded">
+            <i class="fa fa-bars fa-2x text-white"></i>
+          </button>
+        </div>
+        <div class="flex lg:flex-row flex-col justify-between items-center">
+          <div
+            class="flex justify-start lg:flex-row flex-col items-center gap-3"
+          >
+            <a href="../">
+              <img src="../img/logo.png" alt="logo" class="logo w-[60px]" />
+            </a>
+            <div class="lg:text-left text-center">
+              <h2 class="text-white font-bold text-2xl">BCA</h2>
+              <p class="text-lg text-white">Bangladesh Cultural Association</p>
+            </div>
+          </div>
+          <div class="menu-overlay"></div>
+          <div class="flex main-menu justify-end items-center gap-8">
+            <a
+              href="../"
+              class="bg-transparent text-white font-semibold p-0 inline-flex items-center"
+            >
+              Home
+            </a>
+            <a
+              href="./"
+              class="bg-transparent text-white font-semibold p-0 inline-flex items-center"
+            >
+              News & Events
+            </a>
+            <a
+              href="../gallery"
+              class="bg-transparent text-white font-semibold p-0 inline-flex items-center"
+            >
+              Gallery
+            </a>
+            <a
+              href="../about"
+              class="bg-transparent text-white font-semibold p-0 inline-flex items-center"
+            >
+              About Us
+            </a>
+
+            <a
+              href="../contact"
+              class="bg-transparent text-white font-semibold p-0 inline-flex items-center"
+            >
+              Contact Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header -->
+
+    <!-- gallery -->
+    <section class="gallery py-[50px]">
+      <div class="container">
+        <h3 class="text-3xl mb-[50px] font-bold">News & Events</h3>
+        <div class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-8">
+          <div class="item">
+            <a href="../img/event1.jpg" data-lity="">
+              <img src="../img/event1.jpg" alt="" />
+              <div class="card-body my-3">
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat nulla quisquam tempora eius ullam. Nobis, similique
+                  dolorum? Molestiae tempore veniam ipsum libero soluta maxime,
+                  illum placeat officia numquam vitae perferendis architecto
+                  repellendus incidunt neque animi rerum ipsam fugiat doloremque
+                  eligendi.
+                </p>
+
+                <div class="text-right">
+                  <button
+                    class="btn bg-black text-white w-[45px] h-[45px] inline-flex justify-center items-center rounded-full block mt-5"
+                  >
+                    <i class="fa fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="../img/event2.jpg" data-lity="">
+              <img src="../img/event2.jpg" alt="" />
+              <div class="card-body my-3">
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat nulla quisquam tempora eius ullam. Nobis, similique
+                  dolorum? Molestiae tempore veniam ipsum libero soluta maxime,
+                  illum placeat officia numquam vitae perferendis architecto
+                  repellendus incidunt neque animi rerum ipsam fugiat doloremque
+                  eligendi.
+                </p>
+
+                <div class="text-right">
+                  <button
+                    class="btn bg-black text-white w-[45px] h-[45px] inline-flex justify-center items-center rounded-full block mt-5"
+                  >
+                    <i class="fa fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="../img/event3.png" data-lity="">
+              <img src="../img/event3.png" alt="" />
+              <div class="card-body my-3">
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat nulla quisquam tempora eius ullam. Nobis, similique
+                  dolorum? Molestiae tempore veniam ipsum libero soluta maxime,
+                  illum placeat officia numquam vitae perferendis architecto
+                  repellendus incidunt neque animi rerum ipsam fugiat doloremque
+                  eligendi.
+                </p>
+
+                <div class="text-right">
+                  <button
+                    class="btn bg-black text-white w-[45px] h-[45px] inline-flex justify-center items-center rounded-full block mt-5"
+                  >
+                    <i class="fa fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="../img/event4.png" data-lity="">
+              <img src="../img/event4.png" alt="" />
+              <div class="card-body my-3">
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat nulla quisquam tempora eius ullam. Nobis, similique
+                  dolorum? Molestiae tempore veniam ipsum libero soluta maxime,
+                  illum placeat officia numquam vitae perferendis architecto
+                  repellendus incidunt neque animi rerum ipsam fugiat doloremque
+                  eligendi.
+                </p>
+
+                <div class="text-right">
+                  <button
+                    class="btn bg-black text-white w-[45px] h-[45px] inline-flex justify-center items-center rounded-full block mt-5"
+                  >
+                    <i class="fa fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="../img/event1.jpg" data-lity="">
+              <img src="../img/event1.jpg" alt="" />
+              <div class="card-body my-3">
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat nulla quisquam tempora eius ullam. Nobis, similique
+                  dolorum? Molestiae tempore veniam ipsum libero soluta maxime,
+                  illum placeat officia numquam vitae perferendis architecto
+                  repellendus incidunt neque animi rerum ipsam fugiat doloremque
+                  eligendi.
+                </p>
+
+                <div class="text-right">
+                  <button
+                    class="btn bg-black text-white w-[45px] h-[45px] inline-flex justify-center items-center rounded-full block mt-5"
+                  >
+                    <i class="fa fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="../img/event2.jpg" data-lity="">
+              <img src="../img/event2.jpg" alt="" />
+              <div class="card-body my-3">
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat nulla quisquam tempora eius ullam. Nobis, similique
+                  dolorum? Molestiae tempore veniam ipsum libero soluta maxime,
+                  illum placeat officia numquam vitae perferendis architecto
+                  repellendus incidunt neque animi rerum ipsam fugiat doloremque
+                  eligendi.
+                </p>
+
+                <div class="text-right">
+                  <button
+                    class="btn bg-black text-white w-[45px] h-[45px] inline-flex justify-center items-center rounded-full block mt-5"
+                  >
+                    <i class="fa fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="../img/event3.png" data-lity="">
+              <img src="../img/event3.png" alt="" />
+              <div class="card-body my-3">
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat nulla quisquam tempora eius ullam. Nobis, similique
+                  dolorum? Molestiae tempore veniam ipsum libero soluta maxime,
+                  illum placeat officia numquam vitae perferendis architecto
+                  repellendus incidunt neque animi rerum ipsam fugiat doloremque
+                  eligendi.
+                </p>
+
+                <div class="text-right">
+                  <button
+                    class="btn bg-black text-white w-[45px] h-[45px] inline-flex justify-center items-center rounded-full block mt-5"
+                  >
+                    <i class="fa fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="../img/event4.png" data-lity="">
+              <img src="../img/event4.png" alt="" />
+              <div class="card-body my-3">
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat nulla quisquam tempora eius ullam. Nobis, similique
+                  dolorum? Molestiae tempore veniam ipsum libero soluta maxime,
+                  illum placeat officia numquam vitae perferendis architecto
+                  repellendus incidunt neque animi rerum ipsam fugiat doloremque
+                  eligendi.
+                </p>
+
+                <div class="text-right">
+                  <button
+                    class="btn bg-black text-white w-[45px] h-[45px] inline-flex justify-center items-center rounded-full block mt-5"
+                  >
+                    <i class="fa fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="../img/event1.jpg" data-lity="">
+              <img src="../img/event1.jpg" alt="" />
+              <div class="card-body my-3">
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat nulla quisquam tempora eius ullam. Nobis, similique
+                  dolorum? Molestiae tempore veniam ipsum libero soluta maxime,
+                  illum placeat officia numquam vitae perferendis architecto
+                  repellendus incidunt neque animi rerum ipsam fugiat doloremque
+                  eligendi.
+                </p>
+
+                <div class="text-right">
+                  <button
+                    class="btn bg-black text-white w-[45px] h-[45px] inline-flex justify-center items-center rounded-full block mt-5"
+                  >
+                    <i class="fa fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="../img/event2.jpg" data-lity="">
+              <img src="../img/event2.jpg" alt="" />
+              <div class="card-body my-3">
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat nulla quisquam tempora eius ullam. Nobis, similique
+                  dolorum? Molestiae tempore veniam ipsum libero soluta maxime,
+                  illum placeat officia numquam vitae perferendis architecto
+                  repellendus incidunt neque animi rerum ipsam fugiat doloremque
+                  eligendi.
+                </p>
+
+                <div class="text-right">
+                  <button
+                    class="btn bg-black text-white w-[45px] h-[45px] inline-flex justify-center items-center rounded-full block mt-5"
+                  >
+                    <i class="fa fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="../img/event3.png" data-lity="">
+              <img src="../img/event3.png" alt="" />
+              <div class="card-body my-3">
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat nulla quisquam tempora eius ullam. Nobis, similique
+                  dolorum? Molestiae tempore veniam ipsum libero soluta maxime,
+                  illum placeat officia numquam vitae perferendis architecto
+                  repellendus incidunt neque animi rerum ipsam fugiat doloremque
+                  eligendi.
+                </p>
+
+                <div class="text-right">
+                  <button
+                    class="btn bg-black text-white w-[45px] h-[45px] inline-flex justify-center items-center rounded-full block mt-5"
+                  >
+                    <i class="fa fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="../img/event4.png" data-lity="">
+              <img src="../img/event4.png" alt="" />
+              <div class="card-body my-3">
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat nulla quisquam tempora eius ullam. Nobis, similique
+                  dolorum? Molestiae tempore veniam ipsum libero soluta maxime,
+                  illum placeat officia numquam vitae perferendis architecto
+                  repellendus incidunt neque animi rerum ipsam fugiat doloremque
+                  eligendi.
+                </p>
+
+                <div class="text-right">
+                  <button
+                    class="btn bg-black text-white w-[45px] h-[45px] inline-flex justify-center items-center rounded-full block mt-5"
+                  >
+                    <i class="fa fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="../img/event1.jpg" data-lity="">
+              <img src="../img/event1.jpg" alt="" />
+              <div class="card-body my-3">
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat nulla quisquam tempora eius ullam. Nobis, similique
+                  dolorum? Molestiae tempore veniam ipsum libero soluta maxime,
+                  illum placeat officia numquam vitae perferendis architecto
+                  repellendus incidunt neque animi rerum ipsam fugiat doloremque
+                  eligendi.
+                </p>
+
+                <div class="text-right">
+                  <button
+                    class="btn bg-black text-white w-[45px] h-[45px] inline-flex justify-center items-center rounded-full block mt-5"
+                  >
+                    <i class="fa fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="../img/event2.jpg" data-lity="">
+              <img src="../img/event2.jpg" alt="" />
+              <div class="card-body my-3">
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat nulla quisquam tempora eius ullam. Nobis, similique
+                  dolorum? Molestiae tempore veniam ipsum libero soluta maxime,
+                  illum placeat officia numquam vitae perferendis architecto
+                  repellendus incidunt neque animi rerum ipsam fugiat doloremque
+                  eligendi.
+                </p>
+
+                <div class="text-right">
+                  <button
+                    class="btn bg-black text-white w-[45px] h-[45px] inline-flex justify-center items-center rounded-full block mt-5"
+                  >
+                    <i class="fa fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="../img/event3.png" data-lity="">
+              <img src="../img/event3.png" alt="" />
+              <div class="card-body my-3">
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat nulla quisquam tempora eius ullam. Nobis, similique
+                  dolorum? Molestiae tempore veniam ipsum libero soluta maxime,
+                  illum placeat officia numquam vitae perferendis architecto
+                  repellendus incidunt neque animi rerum ipsam fugiat doloremque
+                  eligendi.
+                </p>
+
+                <div class="text-right">
+                  <button
+                    class="btn bg-black text-white w-[45px] h-[45px] inline-flex justify-center items-center rounded-full block mt-5"
+                  >
+                    <i class="fa fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="../img/event4.png" data-lity="">
+              <img src="../img/event4.png" alt="" />
+              <div class="card-body my-3">
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat nulla quisquam tempora eius ullam. Nobis, similique
+                  dolorum? Molestiae tempore veniam ipsum libero soluta maxime,
+                  illum placeat officia numquam vitae perferendis architecto
+                  repellendus incidunt neque animi rerum ipsam fugiat doloremque
+                  eligendi.
+                </p>
+
+                <div class="text-right">
+                  <button
+                    class="btn bg-black text-white w-[45px] h-[45px] inline-flex justify-center items-center rounded-full block mt-5"
+                  >
+                    <i class="fa fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- gallery -->
+
+    <!-- footer -->
+    <footer class="bg-[#2A2D39] py-[50px]">
+      <div class="container">
+        <div class="grid lg:grid-cols-3 grid-cols-1 gap-5">
+          <div class="item">
+            <a href="./">
+              <img src="../img/logo.png" class="w-[100px] mb-5" alt="" />
+            </a>
+            <h2 class="text-white text-xl font-bold">
+              Bangladesh Cultural Association
+            </h2>
+            <p class="text-gray-300">
+              GPO Box 2152, Canberra ACT 2601 Australia
+            </p>
+            <p class="mt-4 text-white mb-1">E-mail:</p>
+            <a
+              href="mailto:info@bca.org.au"
+              class="font-semibold text-yellow-600 block"
+              >info@bca.org.au</a
+            >
+            <a
+              href="mailto:bangladeshassociationcanberra@gmail.com"
+              class="font-semibold text-yellow-600 block"
+              >bangladeshassociationcanberra@gmail.com</a
+            >
+          </div>
+
+          <div class="item">
+            <h2 class="text-xl font-bold text-white">More information</h2>
+            <ul class="mt-5">
+              <li class="my-3">
+                <a href="./" class="text-gray-400 text-lg"> About Us </a>
+              </li>
+              <li class="my-3">
+                <a href="./" class="text-gray-400 text-lg"> Constitution </a>
+              </li>
+              <li class="my-3">
+                <a href="./" class="text-gray-400 text-lg">
+                  Present Executive Committee
+                </a>
+              </li>
+              <li class="my-3">
+                <a href="./" class="text-gray-400 text-lg"> News </a>
+              </li>
+              <li class="my-3">
+                <a href="./" class="text-gray-400 text-lg"> Events </a>
+              </li>
+              <li class="my-3">
+                <a href="../contact/" class="text-gray-400 text-lg">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="item">
+            <h2 class="text-xl font-bold text-white">Connect With Us</h2>
+            <ul class="mt-5">
+              <li class="my-3">
+                <a
+                  href="./"
+                  class="text-gray-400 text-lg flex gap-3 items-center"
+                >
+                  <i class="fab fa-facebook-square"></i> Facebook
+                </a>
+              </li>
+              <li class="my-3">
+                <a
+                  href="./"
+                  class="text-gray-400 text-lg flex gap-3 items-center"
+                >
+                  <i class="fa fa-music"></i> Bangla Radio Canberra
+                </a>
+              </li>
+              <li class="my-3">
+                <a
+                  href="./"
+                  class="text-gray-400 text-lg flex gap-3 items-center"
+                >
+                  <i class="fa fa-language"></i> Bangla Language and Cultural
+                  School
+                </a>
+              </li>
+            </ul>
+
+            <h2 class="mt-5 text-xl font-bold text-white mb-3">
+              Contct person
+            </h2>
+            <p class="text-white">
+              <span class="text-gray-400 font-bold">President:</span> Mr
+              Mohammad Rahmatullah
+            </p>
+            <p class="text-white">
+              <span class="text-gray-400 font-bold">Phone:</span>
+              <a href="tel:0413 006 887">0413 006 887</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- slick js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <!-- lity js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.js"></script>
+
+    <!-- app js -->
+    <script src="../js/app.js"></script>
+  </body>
+</html>
