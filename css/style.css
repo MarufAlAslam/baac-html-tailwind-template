@@ -64,17 +64,23 @@ a {
 
 .message {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../img/hero2.jpg");
+    url("../img/chairman.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
   background-attachment: fixed;
+}
+.chairman-cover {
+  transform: scale(2);
 }
 img.sign {
   filter: invert(1);
 }
 p {
   text-align: justify;
+}
+.flip {
+  transform: rotateY(180deg);
 }
 
 /* contact page */
@@ -202,7 +208,7 @@ html {
   .contact-info {
     padding-bottom: 0 !important;
   }
-  .contact-person{
+  .contact-person {
     padding-top: 0 !important;
   }
 }
